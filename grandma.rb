@@ -3,8 +3,7 @@ def speak_to_grandma(phrase)
     return "I LOVE YOU TOO PUMPKIN!"
   elsif phrase.capitalize
     return "NO, NOT SINCE 1938!"
-      end
-  elsif phrase.upcase
+      elsif phrase.upcase
     return "HUH?! SPEAK UP, SONNY!"
-
+end
   end
